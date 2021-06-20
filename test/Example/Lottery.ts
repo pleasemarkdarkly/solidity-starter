@@ -1,13 +1,14 @@
 import hre from "hardhat";
 import { Artifact } from "hardhat/types";
+import { Signers } from "../../types";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/dist/src/signer-with-address";
 
 import { Lottery } from "../../typechain/Lottery"
-import { Signers } from "../../types";
 import { shouldBehaveLikeLottery } from "./Lottery.behavior";
 
 const { deployContract } = hre.waffle;
 
+/*
 describe("Lottery Contract Interaction Example", function () {        
     before(async function () {
         this.signers = {} as Signers;
@@ -29,3 +30,4 @@ describe("Lottery Contract Interaction Example", function () {
         shouldBehaveLikeLottery();
     });
 });
+*/
